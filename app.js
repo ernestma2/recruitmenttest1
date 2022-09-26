@@ -28,8 +28,6 @@ app.use(express.static(path.join(__dirname, "public"), {
 	index: "index.html"
 }))
 
-
-
 //  This is a server
 var server = app.listen(8081, () => {
 	let host = server.address().address;
