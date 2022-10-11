@@ -8,6 +8,8 @@ var app = express();
 //  This is there to allow us to use cookies
 var cookieParser = require('cookie-parser');
 
+
+
 const connectDB  = require('./db.js')
 
 // import routes
